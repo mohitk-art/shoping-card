@@ -1,0 +1,101 @@
+@import './mixins';
+
+// Header Satrt
+@import './header';
+// Header End
+
+.container {
+  max-width: 1300px;
+}
+
+.heading1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  > a {
+    font-size: 14px;
+    text-transform: initial;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.btm-br {
+  border-bottom: 2px solid #000;
+  padding-bottom: 15px;
+}
+
+.item-list {
+  display: flex;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid #bababa;
+
+  > img {
+    width: 115px;
+    object-fit: cover;
+    height: 100%;
+    min-height: 150px;
+  }
+
+  .content {
+    padding-left: 20px;
+    font-size: 14px;
+    .product-name {
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .price-div {
+      font-weight: 500;
+      span.current {
+        text-decoration: line-through;
+      }
+    }
+  }
+}
+
+.order-summery {
+  > h3 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  table {
+    font-size: 16px;
+    td {
+      padding: 5px;
+    }
+  }
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3) !important;
+}
+
+.shipping-detail {
+  display: flex;
+
+  > input {
+    height: 20px;
+    width: 20px;
+  }
+
+  > div {
+    padding-left: 10px;
+    width: 100%;
+  }
+  .name {
+    a {
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

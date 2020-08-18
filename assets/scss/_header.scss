@@ -1,0 +1,30 @@
+.navbar-brand {
+  img {
+    max-width: 216px;
+  }
+}
+
+.main-header {
+  .nav-item {
+    padding: 0 5px;
+    .nav-link {
+      font-weight: bold;
+      font-size: 16px;
+      border-bottom: 2px solid transparent;
+      &:hover,
+      &.active {
+        border-color: $primaryColor;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .main-header {
+    .nav-item {
+      .nav-link {
+        padding: 24px 3px;
+      }
+    }
+  }
+}

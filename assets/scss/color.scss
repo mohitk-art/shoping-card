@@ -1,0 +1,19 @@
+@import './mixins';
+
+.text-primary {
+  color: $primaryColor !important;
+}
+
+.btn-primary {
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+  &:hover {
+    background-color: $primaryColorH;
+    border-color: $primaryColorH;
+  }
+}
+
+.bg-primary,
+.badge-primary {
+  background-color: $primaryColor !important;
+}

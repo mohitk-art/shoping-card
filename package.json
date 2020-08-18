@@ -1,0 +1,16 @@
+{
+  "name": "fitness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compilestyle:sass": "node-sass assets/scss/style.scss assets/css/style.css -w",
+    "compilecolor:sass": "node-sass assets/scss/color.scss assets/css/color.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
